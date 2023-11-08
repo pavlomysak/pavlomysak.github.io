@@ -1,5 +1,7 @@
 # Data Analytics/Science Student
 
+## Technical Skills: R, SQL, Tableau
+
 ## Education
 B.S. Business Analytics - State University of New York at New Paltz
 
