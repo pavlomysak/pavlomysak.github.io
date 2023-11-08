@@ -10,3 +10,13 @@ Jan, 2023-Apr, 2023
 
 #### eCommerce Analytics Intern - La Tourangelle
 Apr, 2023-Aug, 2023
+
+#### Market Research and Analysis Intern - GigFinesse
+Sep, 2023-Present
+
+# Projects
+## Univariate Multiple Linear Regression - Car Price Prediction
+
+
+
+
