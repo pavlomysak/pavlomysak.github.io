@@ -2,7 +2,10 @@
 
 ## Education
 B.S. Business Analytics - State University of New York at New Paltz
+
 Graduation: Spring 2025
+
+GPA: 3.93
 
 ## Experience
 #### Data Analytics & Strategy Intern - IZEA Worldwide
