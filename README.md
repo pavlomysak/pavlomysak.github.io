@@ -1,3 +1,12 @@
-# pavlomysak.github.io
+# Data Analytics/Science Student
 
-#Welcome
+## Education
+B.S. Business Analytics - State University of New York at New Paltz
+Graduation: Spring 2025
+
+## Experience
+#### Data Analytics & Strategy Intern - IZEA Worldwide
+Jan, 2023-Apr, 2023
+
+#### eCommerce Analytics Intern - La Tourangelle
+Apr, 2023-Aug, 2023
