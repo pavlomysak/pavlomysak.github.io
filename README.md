@@ -3,7 +3,7 @@
 ## Technical Skills: R, SQL, Tableau
 
 ## Education
-B.S. Business Analytics - State University of New York at New Paltz
+B.S. Business Analytics, Minor in Economics - State University of New York at New Paltz
 
 Graduation: Spring 2025
 
@@ -20,7 +20,7 @@ Apr, 2023-Aug, 2023
 Sep, 2023-Present
 
 # Projects
-## Univariate Multiple Linear Regression - Car Price Prediction
+## [Univariate Multiple Linear Regression - Car Price Prediction](Multi-Linear-Reg-Car-Proj.pdf)
 
 
 
