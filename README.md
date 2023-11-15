@@ -2,7 +2,8 @@
 
 ## Technical Skills: R, SQL, Tableau
 
-## Education
+
+## Education  
 **State University of New York at New Paltz**  
 **B.S. Business Analytics, Minor in Economics**  
 Graduation: Spring 2025  
