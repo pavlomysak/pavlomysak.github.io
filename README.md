@@ -1,5 +1,5 @@
 # Data Analytics/Science Student
-<img align ="right" width="150" height="150" src='https://github.com/pavlomysak/pavlomysak/blob/22a62951a8ff46c252ce98ab74b59998b5c9f648/pavlo-pic-prague.jpg'>
+
 ## Technical Skills: R, SQL, Tableau
 
 ## Education
