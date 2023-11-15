@@ -1,5 +1,5 @@
 # Data Analytics/Science Student
-
+<img align ="right" width="150" height="150" src='pavlo-pic-prague.jpg'
 ## Technical Skills: R, SQL, Tableau
 
 ## Education
