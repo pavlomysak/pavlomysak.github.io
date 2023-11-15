@@ -3,8 +3,8 @@
 ## Technical Skills: R, SQL, Tableau
 
 ## Education
-**B.S. Business Analytics, Minor in Economics - State University of New York at New Paltz**
-
+**State University of New York at New Paltz**  
+**B.S. Business Analytics, Minor in Economics**  
 Graduation: Spring 2025  
 GPA: 3.93
 
