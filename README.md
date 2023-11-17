@@ -20,8 +20,13 @@ GPA: 3.93
 
 # Projects
 
-## R : [Univariate Multiple Linear Regression - Car Price Prediction](Multi-Linear-Reg-Car-Proj.pdf)
+## R  
+**R : [Univariate Multiple Linear Regression - Car Price Prediction](Multi-Linear-Reg-Car-Proj.pdf)**  
 
-## Tableau : [Influencer Marketing Dashboard (BelBrandsUSA)](https://public.tableau.com/views/BelBrandsDashboard-FAKE-DATA/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+
+# Tableau  
+**Tableau : [Influencer Marketing Dashboard (BelBrandsUSA)](https://public.tableau.com/views/BelBrandsDashboard-FAKE-DATA/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)**  
+**Tableau : [eCommerce Sales Dashboard](https://public.tableau.com/views/eCommerceMockDashboard/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link)**
+
 
 
