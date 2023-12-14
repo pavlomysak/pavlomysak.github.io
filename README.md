@@ -10,18 +10,22 @@ GPA: 3.93
 
 ## Experience
 **Data Analytics & Strategy Intern - IZEA Worldwide**  
-*Jan, 2023-Apr, 2023*
+*Jan, 2023 - Apr, 2023*
 
 **eCommerce Analytics Intern - La Tourangelle**  
-*Apr, 2023-Aug, 2023*
+*Apr, 2023 - Aug, 2023*
 
 **Market Research and Analysis Intern - GigFinesse**  
-*Sep, 2023-Present*
+*Sep, 2023 - Dec, 2023*
+
+**eCommerce Sales Analyst - La Tourangelle**  
+*Dec, 2023 - Present*
 
 # Projects
 
 ## R  
 #### R : [Univariate Multiple Linear Regression - Car Price Prediction](Multi-Linear-Reg-Car-Proj.pdf)
+#### R : [Binary Classification: Random Forest & Logistic Regression - Using Bio-Signals to Detect Smoking Status](Smoke Detector! - Binary Classification Using Random Forest and Logistic Regression.pdf)
 
 ## Tableau  
 #### Tableau : [Influencer Marketing Dashboard (BelBrandsUSA)](https://public.tableau.com/views/BelBrandsDashboard-FAKE-DATA/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
