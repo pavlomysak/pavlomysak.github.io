@@ -1,4 +1,4 @@
-# Data Analytics/Science Student
+# Data Science Student
 
 ## Technical Skills: R, SQL, Tableau
 
@@ -27,6 +27,9 @@ GPA: 3.96
 
 
 # Projects
+
+## Python
+#### Python : [Imbalanced Classification using Cost Sensitive Learning, Synthetic Minority Oversampling Techniques and Decision Threshold Adjustment](Imbalanced Classification Project (Machine Failures).html)
 
 ## R  
 #### R : [Univariate Multiple Linear Regression - Car Price Prediction](Multi-Linear-Reg-Car-Proj.pdf)
