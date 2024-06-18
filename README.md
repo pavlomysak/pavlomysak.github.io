@@ -32,6 +32,7 @@ GPA: 3.96
 #### Python : [Imbalanced Classification using Cost Sensitive Learning, Synthetic Minority Oversampling Techniques and Decision Threshold Adjustment](Imbalanced Classification Project (Machine Failures).html)
 
 ## R  
+#### R : [Causal Inference - Using Regression Discontinuity to Measure Impact of COVID-19 on Financial Performance of Nursing Homes](BAC_Presentation.pdf)
 #### R : [Univariate Multiple Linear Regression - Car Price Prediction](Multi-Linear-Reg-Car-Proj.pdf)
 #### R : [Binary Classification: Random Forest & Logistic Regression - Using Bio-Signals to Detect Smoking Status](Smoke Detector! - Binary Classification Using Random Forest and Logistic Regression.pdf)
 
