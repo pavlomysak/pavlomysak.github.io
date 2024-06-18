@@ -1,6 +1,6 @@
 # Data Science Student
 
-## Technical Skills: R, SQL, Tableau
+## Technical Skills: Python, R, SQL, Tableau
 
 ## Education  
 **State University of New York at New Paltz**  
