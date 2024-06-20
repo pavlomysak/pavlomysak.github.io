@@ -37,7 +37,7 @@ GPA: 3.96
 #### R : [Binary Classification: Random Forest & Logistic Regression - Using Bio-Signals to Detect Smoking Status](Smoke Detector! - Binary Classification Using Random Forest and Logistic Regression.pdf)
 
 ## SQL
-#### SQL : [Investigating the Oldest Businesses | DataCamp Project](DataCamp_OldestBusiness.html
+#### SQL : [Investigating the Oldest Businesses | DataCamp Project](DataCamp_OldestBusiness.html)
 
 ## Tableau  
 #### Tableau : [Influencer Marketing Dashboard (BelBrandsUSA)](https://public.tableau.com/views/BelBrandsDashboard-FAKE-DATA/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
