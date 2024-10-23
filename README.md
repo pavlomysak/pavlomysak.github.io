@@ -2,8 +2,10 @@
 
 ## Technical Skills: Python, R, SQL, Tableau
 
-## [Resume](Resume-PavloMysak-Oct.23.24.pdf)
+### Resume: [here](Resume-PavloMysak-Oct.23.24.pdf)
 ### contact: pavlomysak@gmail.com
+
+
 
 # Projects
 
