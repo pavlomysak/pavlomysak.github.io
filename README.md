@@ -6,7 +6,7 @@ _Data is powerful, but its true potential lies in the rigor of the methods we us
 
 
 ### Resume: [[here]](Resume-PavloMysak-Oct.23.24.pdf)
-### contact: pavlomysak@gmail.com
+### Contact: pavlomysak@gmail.com
 
 -----
 
