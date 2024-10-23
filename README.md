@@ -2,6 +2,9 @@
 
 ## Technical Skills: Python, R, SQL, Tableau
 
+_Data is powerful, but its true potential lies in the rigor of the methods we use to analyze it._  
+
+
 ### Resume: [[here]](Resume-PavloMysak-Oct.23.24.pdf)
 ### contact: pavlomysak@gmail.com
 
