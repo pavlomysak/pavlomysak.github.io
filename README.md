@@ -2,29 +2,8 @@
 
 ## Technical Skills: Python, R, SQL, Tableau
 
-## Education  
-**State University of New York at New Paltz**  
-**B.S. Business Analytics, Minor in Economics**  
-Graduation: Spring 2025  
-GPA: 3.96
-
-## Experience
-
-**eCommerce Sales Analyst - La Tourangelle**  
-*Dec, 2023 - Present*
-
-**Supplemental Instruction Leader | Statistics - SUNY New Paltz**  
-*Jan, 2024 - Present*
-
-**Market Research and Analysis Intern - GigFinesse**  
-*Sep, 2023 - Dec, 2023*
-
-**eCommerce Analytics Intern - La Tourangelle**  
-*Apr, 2023 - Aug, 2023*
-
-**Data Analytics & Strategy Intern - IZEA Worldwide**  
-*Jan, 2023 - Apr, 2023*
-
+# [Resume](Resume-PavloMysak-Oct.23.24.pdf)
+# [contact](pavlomysak@gmail.com)
 
 # Projects
 
