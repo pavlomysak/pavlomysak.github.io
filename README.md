@@ -1,8 +1,6 @@
 # Data Science Student
 
-## Technical Skills: Python, R, SQL, Tableau
-
-_Data is powerful, but its true potential lies in the rigor of the methods we use to analyze it._  
+## Technical Skills: Python, R, SQL, Tableau   
 
 
 ### Resume: [[here]](Resume-PavloMysak-Oct.23.24.pdf)
