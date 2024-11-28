@@ -11,9 +11,7 @@
 # Manuscripts  
 
 
-[Enhancing House Price Predictions: A Comparative Analysis of Feature Selection Algorithms and the Lasso Model](EnhancingHousePricePredictions.pdf)
-
-[[code]](FS_Proj_Code.pdf)
+[Enhancing House Price Predictions: A Comparative Analysis of Feature Selection Algorithms and the Lasso Model](EnhancingHousePricePredictions.pdf) - [[code]](FS_Proj_Code.pdf)
 
 
 # Projects
