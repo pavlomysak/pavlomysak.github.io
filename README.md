@@ -11,11 +11,10 @@
 # Manuscripts  
 
 
+[**In Progress:** Evaluating Feature Selection Method Performance: The Role of Dataset Metadata in Predictive Modeling - A Summary](Feature_Selection_Summary.pdf) - [[code]](FeatureSelection.py)
+
+
 [Enhancing House Price Predictions: A Comparative Analysis of Feature Selection Algorithms and the Lasso Model](EnhancingHousePricePredictions.pdf) - [[code]](FS-code.pdf)
-
-
-[**In Progress:** Evaluating Feature Selection Method Performance: The Role of Dataset Metadata in Predictive Modelling - A Summary](Feature_Selection_Summary.pdf) - [[code]](FeatureSelection.py)
-
 
 
 # Projects
