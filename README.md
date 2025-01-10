@@ -21,6 +21,7 @@
 
 ## Python
 #### Python : [Imbalanced Classification using Cost Sensitive Learning, Synthetic Minority Oversampling Techniques and Decision Threshold Adjustment](Imbalanced Classification Project (Machine Failures).html)
+#### Python/Streamlit : [AI-Powered Couple's Prompt Game Web App](https://couples-prompt-ai.streamlit.app)
 
 ## R  
 #### R : [Causal Inference - Using Regression Discontinuity to Measure Impact of COVID-19 on Financial Performance of Nursing Homes](BAC_Presentation.pdf)
