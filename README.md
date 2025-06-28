@@ -12,13 +12,15 @@
 # Manuscripts/Reports
 
 [Retail Price Sensitivity and Promotional Strategy: A Multi-Retailer Olive Oil Analysis](Olive Oil Consumer Price Sensitivity.pdf)  
-**Type:** Executive-Facing Retail Analysis | **Tools:** Python (Pandas, StatsModels, Matplotlib)
+**Type:** Executive-Facing Retail Analysis  
+**Tools:** Python (Pandas, StatsModels, Matplotlib)
 
 [**In Progress:** Evaluating Feature Selection Method Performance: The Role of Dataset Metadata in Predictive Modeling - A Summary](Feature_Selection_Summary.pdf) - [[code]](https://github.com/pavlomysak/pavlomysak.github.io/blob/main/FeatureSelection.py)
 
 
 [Enhancing House Price Predictions: A Comparative Analysis of Feature Selection Algorithms and the Lasso Model](EnhancingHousePricePredictions.pdf) - [[code]](https://github.com/pavlomysak/pavlomysak.github.io/blob/main/pilot_project.py)  
-**Type:** Academic Research Project | **Tools:** Python (Numpy, Pandas, Scikit-Learn)
+**Type:** Academic Research Project  
+**Tools:** Python (Numpy, Pandas, Scikit-Learn)
 
 # Projects
 
