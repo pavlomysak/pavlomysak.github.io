@@ -9,14 +9,16 @@
 
 -----
 
-# Manuscripts  
+# Manuscripts/Reports
 
+[Retail Price Sensitivity and Promotional Strategy: A Multi-Retailer Olive Oil Analysis](Olive Oil Consumer Price Sensitivity.pdf)
+**Type:** Executive-Facing Retail Analysis | **Tools:** Python (Pandas, StatsModels, Matplotlib)
 
 [**In Progress:** Evaluating Feature Selection Method Performance: The Role of Dataset Metadata in Predictive Modeling - A Summary](Feature_Selection_Summary.pdf) - [[code]](https://github.com/pavlomysak/pavlomysak.github.io/blob/main/FeatureSelection.py)
 
 
 [Enhancing House Price Predictions: A Comparative Analysis of Feature Selection Algorithms and the Lasso Model](EnhancingHousePricePredictions.pdf) - [[code]](https://github.com/pavlomysak/pavlomysak.github.io/blob/main/pilot_project.py)
-
+**Type:** Academic Research Project | **Tools:** Python (Numpy, Pandas, Scikit-Learn)
 
 # Projects
 
@@ -36,8 +38,6 @@
 #### Tableau : [Influencer Marketing Dashboard (BelBrandsUSA)](https://public.tableau.com/views/BelBrandsDashboard-FAKE-DATA/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 #### Tableau : [eCommerce Sales Dashboard](https://public.tableau.com/views/eCommerceMockDashboard/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-## Google Data Studio (Looker)  
-#### Looker : [Marketing Dashboard](https://lookerstudio.google.com/reporting/96cfa7c6-17e4-42d7-b87c-71b1a6b131ce)
 
 
 
