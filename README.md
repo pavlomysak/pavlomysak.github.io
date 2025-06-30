@@ -23,7 +23,7 @@
 **Tools:** Python (Numpy, Pandas, Scikit-Learn)
 
 [COVID-19 Implications on the Financial Health and Quality of Skilled Nursing Facilities: A Regression Discontinuity Approach](CMS_Paper_0630.pdf)  
-**Type:** Academic Research Paper
+**Type:** Academic Research Paper  
 **Tools:** R
 
 # Projects
