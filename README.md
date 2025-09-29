@@ -11,8 +11,8 @@
 
 # Manuscripts/Reports
 
-[Notes on Total Variance](notes-on-total-variance.html)  
-**Type:** Blog Post  
+[Notes on Total Variance]({% post_url 2025-09-29-notes-on-total-variance %})  
+**Type:** Journal Entry  
 **Tools:** LaTeX
 
 [Retail Price Sensitivity and Promotional Strategy: A Multi-Retailer Olive Oil Analysis](Olive Oil Consumer Price Sensitivity.pdf)  
