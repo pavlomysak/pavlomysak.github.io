@@ -32,12 +32,12 @@ If you’ve ever seen ANOVA, this probably rings a bell. In that world, the whol
 That’s one way to read this formula. But it can also be shown in a perspective that puts this decomposition in the [language of uncertainty](https://andrewcharlesjones.github.io/journal/epi-ali-uncertainty.html). Specifically:
 - The first term,
   $$
-  \mathbb{E}[Var(Y|X)]
+  \mathbb{E}[\text{Var}(Y|X)]
   $$
   , corresponds to aleatoric uncertainty: the inherent randomness and noise built into the data-generating process. That is, it’s the “noise we’re stuck with.”
 - The second term,
   $$
-  Var(\mathbb{E}[Y|X])
+  \text{Var}(\mathbb{E}[Y|X])
   $$
   , corresponds to epistemic uncertainty: uncertainty that comes from not knowing enough about the data-generating process. In other words, uncertainty that could shrink if we gathered more data or adjusted model parameters.
 
@@ -108,7 +108,7 @@ Epistemic uncertainty and the variance term are clearly long-lost cousins. Both 
 
 So if we let $D$ go to infinity: 
 
-$$ \mathbb{E}_D[(y(x;D) - \mathbb{E}_D[y(x;D)])^2] = Var(\mathbb{E}_D[Y|X]) $$
+$$ \mathbb{E}_D[(y(x;D) - \mathbb{E}_D[y(x;D)])^2] = \text{Var}(\mathbb{E}_D[Y|X]) $$
 
 Ergo, **model variance = epistemic uncertainty**.  
 Nice and tidy.
@@ -125,7 +125,7 @@ Aleatoric uncertainty, by contrast, is the part of our variance that *cannot* va
 
 Mathematically, aleatoric uncertainty is written as:  
 
-$$ \mathbb{E}[Var(Y|X)] = \mathbb{E}\left[\mathbb{E}\!\left[(Y|X - \mathbb{E}[Y|X])^2\right]\right] $$
+$$ \mathbb{E}[\text{Var}(Y|X)] = \mathbb{E}\left[\mathbb{E}\!\left[(Y|X - \mathbb{E}[Y|X])^2\right]\right] $$
 
 This doesn’t look much like bias at all. In fact,
 
