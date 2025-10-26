@@ -17,14 +17,14 @@ $$ Var(Y) = \mathbb{E}[Var(Y|X)] + Var(\mathbb{E}[Y|X]) $$
 If you’ve never seen this before it may look a little cryptic or suspicious, but it’s called a law for a reason. And you don’t just have to take my (or Eve’s) word for it: with the law of iterated expectations (Adam’s Law) and some algebra, you can prove it yourself. Turns out Adam & Eve’s contributions to probability theory are vastly underappreciated.
 
 I’ll skip the [proof](https://statproofbook.github.io/P/var-tot) here, but the key idea is that the total variance of Y can be split into two pieces:
-- the *within-group variance*, $\mathbb{E}[Var(Y|X)]$
-- the *between-group variance*, $Var(\mathbb{E}[Y|X])$
+- the *within-group variance*, \( \mathbb{E}[Var(Y|X)] \)
+- the *between-group variance*, \( Var(\mathbb{E}[Y|X]) \)
 
 If you’ve ever seen ANOVA, this probably rings a bell. In that world, the whole point is to compare between-group variance to within-group variance: if the former is substantially larger, it’s evidence that group means are likely different.
 
 That’s one way to read this formula. But it can also be shown in a perspective that puts this decomposition in the [language of uncertainty](https://andrewcharlesjones.github.io/journal/epi-ali-uncertainty.html). Specifically:
-- The first term, $\mathbb{E}[Var(Y|X)]$, corresponds to aleatoric uncertainty: the inherent randomness and noise built into the data-generating process. That is, it’s the “noise we’re stuck with.”
-- The second term, $Var(\mathbb{E}[Y|X])$, corresponds to epistemic uncertainty: uncertainty that comes from not knowing enough about the data-generating process. In other words, uncertainty that could shrink if we gathered more data or adjusted model parameters.
+- The first term, \( \mathbb{E}[Var(Y|X)] \), corresponds to aleatoric uncertainty: the inherent randomness and noise built into the data-generating process. That is, it’s the “noise we’re stuck with.”
+- The second term, \( Var(\mathbb{E}[Y|X]) \), corresponds to epistemic uncertainty: uncertainty that comes from not knowing enough about the data-generating process. In other words, uncertainty that could shrink if we gathered more data or adjusted model parameters.
 
 In Bayesian inference, this split isn’t just a neat decomposition; it’s baked into how we think about likelihoods and posteriors. Aleatoric uncertainty is the expected noise from the sampling model. Epistemic uncertainty is the variation induced by the posterior over parameters. And crucially, as we collect more data, epistemic uncertainty tends to fade away, which lines up perfectly with the intuition.
 
@@ -32,7 +32,8 @@ In Bayesian inference, this split isn’t just a neat decomposition; it’s bake
 
 Now let’s switch gears to machine learning. A classic idea here is the [bias–variance tradeoff](https://mlu-explain.github.io/bias-variance/). You’ve probably heard the high-level version before: models with too much flexibility tend to have high variance, while models that are too simple/rigid tend to have high bias. But let’s actually derive where this decomposition comes from.
 
-Suppose we want to measure the error of a predictive model $y(x; D)$, where $D$ is a dataset. A natural way to do this is to look at the squared deviation from the true signal $h(x)$:
+Suppose we want to measure the error of a predictive model $y(x; D)$, where $D$ is a dataset. A natural way to do this is to look at the squared deviation from the true signal $h(x)$:  
+
 $$ [y(x;D) - h(x)]^2 $$
 
 Here:  
@@ -75,8 +76,8 @@ That’s the bias–variance decomposition. It tells us that model error isn’t
 
 We know that:  
 
-- $\mathbb{E}[Var(Y|X)] \rightarrow $ **aleatoric uncertainty**
-- $Var(\mathbb{E}[Y|X]) \rightarrow $ **epistemic uncertainty**
+- \( \mathbb{E}[Var(Y|X)] \rightarrow \) **aleatoric uncertainty**
+- \( Var(\mathbb{E}[Y|X]) \rightarrow \) **epistemic uncertainty**
 - $\mathbb{E}_D[(y(x;D) -\mathbb{E}_D[y(x;D)])^2] \rightarrow $ **model variance**
 - $[\mathbb{E}_D[y(x;D)] - h(x)]^2 \rightarrow $ **model bias squared**
 
@@ -85,8 +86,11 @@ How can we match up these terms based on similarity? Well, let’s start with th
 Epistemic uncertainty and the variance term are clearly long-lost cousins. Both are expectations of a squared deviation, and if you stare at the bias–variance expression long enough, you’ll notice $\mathbb{E}_D[(y(x;D) -\mathbb{E}_D[y(x;D)])^2]$ is literally the variance of $y(x;D)$. And what is $y(x;D)$, really, if not “$Y$ given $X$” in disguise?
 
 So if we let $D$ go to infinity: 
+
 $$ \mathbb{E}_D[(y(x;D) - \mathbb{E}_D[y(x;D)])^2] = Var(\mathbb{E}_D[Y|X]) $$
-Ergo, **model variance = epistemic uncertainty**. Nice and tidy.
+
+Ergo, **model variance = epistemic uncertainty**.  
+Nice and tidy.
 
 But what about the other half? Does that mean the bias term should line up with aleatoric uncertainty?
 
@@ -102,7 +106,7 @@ This doesn’t look much like bias at all. In fact,
 
 $$\mathbb{E}\left[\mathbb{E}\!\left[(Y|X - \mathbb{E}[Y|X])^2\right]\right] \neq (\mathbb{E}[Y|X] - Y)^2 $$
 
-and unfortunately, Adam \& Eve can’t rescue us from that algebra.
+and unfortunately, Adam & Eve can’t rescue us from that algebra.
 
 Furthermore, theoretically this makes a lot of sense. Why would the model bias line up with the inherent noise in the data-generating process? But while we're thinking theoretically, why doesn't bias line up with epistemic uncertainty at all? I mean, it *is* redicible. 
 
