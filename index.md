@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Pavlo Mysak
 ---
 
@@ -18,7 +18,7 @@ title: Pavlo Mysak
 
   <div>
     <h1>Pavlo Mysak</h1>
-    <p><em>Data Science Student | eCommerce Analyst | ML Researcher</em></p>
+    <p><em>Data Science Student | eCommerce Analyst </em></p>
     <p>I’m a data science student at Boston University with a background in Business Analytics and Economics. 
     Currently, I work part-time as an eCommerce Analyst at <strong>La Tourangelle</strong>, where I lead data science projects in pricing and forecasting. 
     My research interests include causal inference, machine learning, and applied econometrics.</p>
