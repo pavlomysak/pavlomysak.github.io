@@ -1,7 +1,3 @@
-<nav style="margin-bottom: 2em;">
-  <a href="{{ '/' | relative_url }}">Home</a> |
-  <a href="{{ '/journals' | relative_url }}">Journals</a>
-</nav>
 
 ---
 layout: default
