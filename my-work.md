@@ -1,4 +1,8 @@
-# Data Science Student
+---
+layout: default
+title: My Work
+permalink: /my-work/
+---
 
 ## Technical Skills: Python, R, SQL, Tableau   
 
