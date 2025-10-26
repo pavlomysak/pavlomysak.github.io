@@ -1,45 +1,42 @@
+---
+layout: home
+title: Pavlo Mysak
+---
+
 # Data Science Student
 
 ## Technical Skills: Python, R, SQL, Tableau   
 
 
 ### Resume: [[here]](PavloMysak_Resume_DS_0731.pdf)
-### Contact: pavlomysak@gmail.com
-
 
 -----
 
-# Manuscripts/Reports
 
-[Retail Price Sensitivity and Promotional Strategy: A Multi-Retailer Olive Oil Analysis](Olive Oil Consumer Price Sensitivity.pdf)  
-**Type:** Executive-Facing Analysis  
-**Tools:** Python (Pandas, StatsModels, Matplotlib)
+<div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
+  <img src="/assets/images/headshot.jpg" alt="Pavlo Mysak" style="width:180px; border-radius:50%; box-shadow:0 0 10px rgba(0,0,0,0.1);" />
 
-[**In Progress:** Evaluating Feature Selection Method Performance: The Role of Dataset Metadata in Predictive Modeling - A Summary](Feature_Selection_Summary.pdf) - [[code]](https://github.com/pavlomysak/pavlomysak.github.io/blob/main/FeatureSelection.py)
+  <div>
+    <h1>Pavlo Mysak</h1>
+    <p><em>Data Science Student | eCommerce Analyst | ML Researcher</em></p>
+    <p>I’m a data science student at Boston University with a background in Business Analytics and Economics. 
+    Currently, I work part-time as an eCommerce Analyst at <strong>La Tourangelle</strong>, where I lead data science projects in pricing and forecasting. 
+    My research interests include causal inference, machine learning, and applied econometrics.</p>
+  </div>
+</div>
 
+---
 
-[Enhancing House Price Predictions: A Comparative Analysis of Feature Selection Algorithms and the Lasso Model](EnhancingHousePricePredictions.pdf) - [[code]](https://github.com/pavlomysak/pavlomysak.github.io/blob/main/pilot_project.py)  
-**Type:** Academic Research Project  
-**Tools:** Python (Numpy, Pandas, Scikit-Learn)
+## Currently Working On
+- [TRACE | A hybrid deep learning architecture for intermittent demand forecasting](https://github.com/pavlomysak/TRACE-forecasting/tree/main)  
+ 
 
-[COVID-19 Implications on the Financial Health and Quality of Skilled Nursing Facilities: A Regression Discontinuity Approach](CMS_Paper_0630.pdf)  
-**Type:** Academic Research Paper  
-**Tools:** R
+---
 
-# Projects  
+## Explore My Work
+See my [projects and research](/my-work) for manuscripts, experiments, and technical notes.
 
-## Python
-#### Python : [TRACE | A hybrid deep learning architecture for intermittent demand forecasting](https://github.com/pavlomysak/TRACE-forecasting/tree/main)  
-#### Python : [Imbalanced Classification using Cost Sensitive Learning, Synthetic Minority Oversampling Techniques and Decision Threshold Adjustment](Imbalanced Classification Project (Machine Failures).html)
+---
 
-## R  
-#### R : [Causal Inference - Using Regression Discontinuity to Measure Impact of COVID-19 on Financial Performance of Nursing Homes](BAC_Presentation.pdf)
-#### R : [Univariate Multiple Linear Regression - Car Price Prediction](Multi-Linear-Reg-Car-Proj.pdf)
-#### R : [Binary Classification: Random Forest & Logistic Regression - Using Bio-Signals to Detect Smoking Status](Smoke Detector! - Binary Classification Using Random Forest and Logistic Regression.pdf)
-
-## SQL
-#### SQL : [Investigating the Oldest Businesses | DataCamp Project](DataCamp_OldestBusiness.html)
-
-## Tableau  
-#### Tableau : [Influencer Marketing Dashboard (BelBrandsUSA)](https://public.tableau.com/views/BelBrandsDashboard-FAKE-DATA/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
-#### Tableau : [eCommerce Sales Dashboard](https://public.tableau.com/views/eCommerceMockDashboard/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link)
+## Contact
+[LinkedIn](https://linkedin.com/in/pavlomysak) · [GitHub](https://github.com/pavlomysak) · [Email](mailto:pavlomysak@gmail.com)
