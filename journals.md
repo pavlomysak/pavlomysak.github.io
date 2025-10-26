@@ -3,7 +3,7 @@ layout: default
 title: Journals
 ---
 
-<h1>Journals</h1>
+<h1>Journal Entries</h1>
 
 <ul>
   {% for post in site.posts %}
