@@ -30,8 +30,16 @@ I’ll skip the [proof](https://statproofbook.github.io/P/var-tot) here, but the
 If you’ve ever seen ANOVA, this probably rings a bell. In that world, the whole point is to compare between-group variance to within-group variance: if the former is substantially larger, it’s evidence that group means are likely different.
 
 That’s one way to read this formula. But it can also be shown in a perspective that puts this decomposition in the [language of uncertainty](https://andrewcharlesjones.github.io/journal/epi-ali-uncertainty.html). Specifically:
-- The first term, $\mathbb{E}[Var(Y|X)]$, corresponds to aleatoric uncertainty: the inherent randomness and noise built into the data-generating process. That is, it’s the “noise we’re stuck with.”
-- The second term, $Var(\mathbb{E}[Y|X])$ , corresponds to epistemic uncertainty: uncertainty that comes from not knowing enough about the data-generating process. In other words, uncertainty that could shrink if we gathered more data or adjusted model parameters.
+- The first term,
+  $$
+  \mathbb{E}[Var(Y|X)]
+  $$
+  , corresponds to aleatoric uncertainty: the inherent randomness and noise built into the data-generating process. That is, it’s the “noise we’re stuck with.”
+- The second term,
+  $$
+  Var(\mathbb{E}[Y|X])
+  $$
+  , corresponds to epistemic uncertainty: uncertainty that comes from not knowing enough about the data-generating process. In other words, uncertainty that could shrink if we gathered more data or adjusted model parameters.
 
 In Bayesian inference, this split isn’t just a neat decomposition; it’s baked into how we think about likelihoods and posteriors. Aleatoric uncertainty is the expected noise from the sampling model. Epistemic uncertainty is the variation induced by the posterior over parameters. And crucially, as we collect more data, epistemic uncertainty tends to fade away, which lines up perfectly with the intuition.
 
