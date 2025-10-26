@@ -145,3 +145,52 @@ footer {
     padding: 1.5em;
   }
 }
+
+/* ------------------------------
+   Homepage layout
+------------------------------ */
+.home-intro .intro-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  padding: 2em;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+}
+
+.intro-photo img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.intro-text {
+  max-width: 500px;
+  text-align: left;
+}
+
+.intro-text h2 {
+  margin-top: 0;
+  font-size: 1.6em;
+  color: #111;
+}
+
+@media (max-width: 700px) {
+  .home-intro .intro-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .intro-text {
+    text-align: center;
+  }
+
+  .intro-photo img {
+    width: 150px;
+    height: 150px;
+  }
+}
