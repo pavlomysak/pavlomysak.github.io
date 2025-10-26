@@ -11,7 +11,8 @@ Within the first month of working toward my master’s degree at Boston Universi
 Two of those ideas were the law of total variance and the bias-variance tradeoff. And while the math itself is straightforward enough, what caught my attention is how different fields frame and interpret them. I haven’t seen a post tying these perspectives together, so I figured I’d take a shot at formalizing this connection.
 
 ## Law of Total Variance (Eve's Law)
-Let’s start with the probability theory side of things. The law of total variance tells us:
+Let’s start with the probability theory side of things. The law of total variance tells us:  
+
 $$ Var(Y) = \mathbb{E}[Var(Y|X)] + Var(\mathbb{E}[Y|X]) $$
 
 If you’ve never seen this before it may look a little cryptic or suspicious, but it’s called a law for a reason. And you don’t just have to take my (or Eve’s) word for it: with the law of iterated expectations (Adam’s Law) and some algebra, you can prove it yourself. Turns out Adam & Eve’s contributions to probability theory are vastly underappreciated.
@@ -104,7 +105,7 @@ Mathematically, aleatoric uncertainty is written as:
 $$ \mathbb{E}[Var(Y|X)] = \mathbb{E}\left[\mathbb{E}\!\left[(Y|X - \mathbb{E}[Y|X])^2\right]\right] $$
 This doesn’t look much like bias at all. In fact,
 
-$$\mathbb{E}\left[\mathbb{E}\!\left[(Y|X - \mathbb{E}[Y|X])^2\right]\right] \neq (\mathbb{E}[Y|X] - Y)^2 $$
+$$\mathbb{E}\left[\mathbb{E}\left[(Y|X - \mathbb{E}[Y|X])^2\right]\right] \neq (\mathbb{E}[Y|X] - Y)^2 $$
 
 and unfortunately, Adam & Eve can’t rescue us from that algebra.
 
