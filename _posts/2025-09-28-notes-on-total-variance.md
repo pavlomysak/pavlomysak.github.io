@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Notes on Total Variance"
+title: "Notes on Total Variance, Uncertainty Quantification, and the Bias-Variance Tradeoff"
 date: 2025-09-28
 author: Pavlo Mysak
 tags: [journal]
@@ -95,14 +95,18 @@ Nice and tidy.
 
 But what about the other half? Does that mean the bias term should line up with aleatoric uncertainty?
 
-Let’s think it through. Our bias, 
+Let’s think it through. Our bias,  
+
 $$ [\mathbb{E}_D[y(x;D)] - h(x)]^2 $$
+
 measures the systematic gap between the average prediction (across datasets) and the true signal $h(x)$. Even if we trained on infinitely many datasets, if our model is misspecified, this term won’t vanish. That’s the heart of bias: it’s structural error baked into the model. And specifically, it comes from the model being too rigid or inflexible.
 
 Aleatoric uncertainty, by contrast, is the part of our variance that *cannot* vanish with more information. It reflects the randomness in the data-generating process, and with more data (or a more flexible model) it won't shrink.
 
-Mathematically, aleatoric uncertainty is written as:
+Mathematically, aleatoric uncertainty is written as:  
+
 $$ \mathbb{E}[Var(Y|X)] = \mathbb{E}\left[\mathbb{E}\!\left[(Y|X - \mathbb{E}[Y|X])^2\right]\right] $$
+
 This doesn’t look much like bias at all. In fact,
 
 $$\mathbb{E}\left[\mathbb{E}\left[(Y|X - \mathbb{E}[Y|X])^2\right]\right] \neq (\mathbb{E}[Y|X] - Y)^2 $$
