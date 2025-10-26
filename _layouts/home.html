@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title }}</title>
+
+    <meta name="description" content="{{ site.description | default: site.title }}">
+    <link rel="icon" href="{{ '/assets/favicon.png' | relative_url }}">
+    <meta name="theme-color" content="#555555">
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+
+  <body>
+    <header>
+      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      <p>{{ site.description }}</p>
+    </header>
+
+    <nav>
+      <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
+      <a href="{{ '/my-work/' | relative_url }}" {% if page.url contains '/my-work' %}class="active"{% endif %}>My Work</a>
+      <a href="{{ '/journals/' | relative_url }}" {% if page.url contains '/journals' %}class="active"{% endif %}>Journal</a>
+    </nav>
+
+    <main class="home-intro">
+      <div class="intro-container">
+        <div class="intro-photo">
+          <img src="{{ '/assets/headshot.jpg' | relative_url }}" alt="Photo of {{ site.title }}">
+        </div>
+        <div class="intro-text">
+          {{ content }}
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      © {{ site.time | date: '%Y' }} {{ site.title }}
+    </footer>
+  </body>
+</html>
