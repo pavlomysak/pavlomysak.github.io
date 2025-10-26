@@ -30,9 +30,10 @@
 **Type:** Academic Research Paper  
 **Tools:** R
 
-# Projects
+# Projects  
 
 ## Python
+#### Python : [TRACE | A hybrid deep learning architecture for intermittent demand forecasting](https://github.com/pavlomysak/TRACE-forecasting/tree/main)  
 #### Python : [Imbalanced Classification using Cost Sensitive Learning, Synthetic Minority Oversampling Techniques and Decision Threshold Adjustment](Imbalanced Classification Project (Machine Failures).html)
 
 ## R  
