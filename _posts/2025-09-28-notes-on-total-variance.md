@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Notes on Total Variance, Uncertainty Quantification, and the Bias-Variance Tradeoff"
 date: 2025-09-28
 author: Pavlo Mysak
