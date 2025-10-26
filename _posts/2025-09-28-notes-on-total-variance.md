@@ -18,11 +18,11 @@ $$ \text{Var}(Y) = \mathbb{E}[\text{Var}(Y|X)] + \text{Var}(\mathbb{E}[Y|X]) $$
 If you’ve never seen this before it may look a little cryptic or suspicious, but it’s called a law for a reason. And you don’t just have to take my (or Eve’s) word for it: with the law of iterated expectations (Adam’s Law) and some algebra, you can prove it yourself. Turns out Adam & Eve’s contributions to probability theory are vastly underappreciated.
 
 I’ll skip the [proof](https://statproofbook.github.io/P/var-tot) here, but the key idea is that the total variance of Y can be split into two pieces:  
-- the within-group variance,
+- the *within-group variance*,
   $$
   \mathbb{E}[\text{Var}(Y|X)]
   $$
-- the between-group variance,
+- the *between-group variance*,
   $$
   \text{Var}(\mathbb{E}[Y|X])
   $$
@@ -83,8 +83,14 @@ That’s the bias–variance decomposition. It tells us that model error isn’t
 
 We know that:  
 
-- $\mathbb{E}[Var(Y|X)] \rightarrow$ **aleatoric uncertainty**
-- $Var(\mathbb{E}[Y|X]) \rightarrow$ **epistemic uncertainty**
+- $$
+  \mathbb{E}[\text{Var}(Y|X)] \rightarrow
+  $$
+  **aleatoric uncertainty**
+- $$
+  \text{Var}(\mathbb{E}[Y|X]) \rightarrow
+  $$
+  **epistemic uncertainty**
 - $\mathbb{E}_D[(y(x;D) -\mathbb{E}_D[y(x;D)])^2] \rightarrow$ **model variance**
 - $[\mathbb{E}_D[y(x;D)] - h(x)]^2 \rightarrow$ **model bias squared**
 
