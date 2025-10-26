@@ -39,4 +39,4 @@ See my [projects and research](/my-work) for manuscripts, experiments, and techn
 ---
 
 ## Contact
-[LinkedIn](https://linkedin.com/in/pavlomysak) · [GitHub](https://github.com/pavlomysak) · [Email](mailto:pavlomysak@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/pavlo-mysak/) · [GitHub](https://github.com/pavlomysak) · [Email](mailto:pavlomysak@gmail.com)
