@@ -14,7 +14,7 @@ title: Pavlo Mysak
 
 
 <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
-  <img src="/assets/images/headshot.jpg" alt="Pavlo Mysak" style="width:180px; border-radius:50%; box-shadow:0 0 10px rgba(0,0,0,0.1);" />
+  <img src="/assets/headshot.jpg" alt="Pavlo Mysak" style="width:180px; border-radius:50%; box-shadow:0 0 10px rgba(0,0,0,0.1);" />
 
   <div>
     <h1>Pavlo Mysak</h1>
