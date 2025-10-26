@@ -151,7 +151,7 @@ footer {
 ------------------------------ */
 .home-intro .intro-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 2em;
   padding: 2em;
