@@ -41,8 +41,9 @@
     </header>
 
     <nav>
-      <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/journals' | relative_url }}">Journal Entries</a>
+      <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
+      <a href="{{ '/my-work/' | relative_url }}" {% if page.url contains '/my-work' %}class="active"{% endif %}>My Work</a>
+      <a href="{{ '/journal/' | relative_url }}" {% if page.url contains '/journal' %}class="active"{% endif %}>Journal</a>
     </nav>
 
     <main>
