@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} | {{ site.title }}</title>
+
+    <meta name="description" content="{{ page.excerpt | default: site.description }}">
+
+    <!-- Minimal theme CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+    <!-- MathJax for LaTeX -->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']],
+          processEscapes: true
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      };
+    </script>
+    <script id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+
+    <style>
+      body {
+        max-width: 800px;
+        margin: 2em auto;
+        padding: 0 1em;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+      }
+
+      nav {
+        text-align: center;
+        margin-bottom: 2em;
+      }
+
+      nav a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: #0366d6;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 3em;
+        color: #888;
+        font-size: 0.9em;
+      }
+
+      article h1 {
+        font-size: 2em;
+        margin-bottom: 0.2em;
+      }
+
+      article .post-meta {
+        color: #555;
+        font-size: 0.9em;
+        margin-bottom: 2em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1 style="text-align:center; margin-bottom:0.3em;">
+        <a href="{{ '/' | relative_url }}" style="text-decoration:none; color:inherit;">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p style="text-align:center; color:#555; margin-top:0;">
+        {{ site.description }}
+      </p>
+    </header>
+
+    <nav>
+      <a href="{{ '/' | relative_url }}">Home</a> |
+      <a href="{{ '/journals' | relative_url }}">Journals</a>
+    </nav>
+
+    <main>
+      <article>
+        <h1>{{ page.title }}</h1>
+        <p class="post-meta">
+          {% if page.author %}By {{ page.author }} | {% endif %}
+          {{ page.date | date: "%B %d, %Y" }}
+        </p>
+        {{ content }}
+      </article>
+    </main>
+
+    <footer>
+      © {{ site.time | date: '%Y' }} {{ site.title }}
+    </footer>
+  </body>
+</html>
