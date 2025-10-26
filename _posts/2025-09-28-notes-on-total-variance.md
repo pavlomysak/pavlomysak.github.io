@@ -2,7 +2,8 @@
 layout: post
 title: "Notes on Total Variance"
 date: 2025-09-28
-categories: journal
+author: Pavlo Mysak
+tags: [journal]
 ---
 
 Within the first month of working toward my master’s degree at Boston University, I noticed a pattern of the same ideas reappearing across difference classes, but under different names and from different angles. 
