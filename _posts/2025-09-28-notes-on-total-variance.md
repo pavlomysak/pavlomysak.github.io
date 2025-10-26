@@ -18,8 +18,14 @@ $$ \text{Var}(Y) = \mathbb{E}[\text{Var}(Y|X)] + \text{Var}(\mathbb{E}[Y|X]) $$
 If you’ve never seen this before it may look a little cryptic or suspicious, but it’s called a law for a reason. And you don’t just have to take my (or Eve’s) word for it: with the law of iterated expectations (Adam’s Law) and some algebra, you can prove it yourself. Turns out Adam & Eve’s contributions to probability theory are vastly underappreciated.
 
 I’ll skip the [proof](https://statproofbook.github.io/P/var-tot) here, but the key idea is that the total variance of Y can be split into two pieces:  
-- the *within-group variance* $\mathbb{E}[Var(Y|X)]$  
-- the *between-group variance* $Var(\mathbb{E}[Y|X])$
+- the within-group variance,
+  $$
+  \mathbb{E}[\text{Var}(Y|X)]
+  $$
+- the between-group variance,
+  $$
+  \text{Var}(\mathbb{E}[Y|X])
+  $$
 
 If you’ve ever seen ANOVA, this probably rings a bell. In that world, the whole point is to compare between-group variance to within-group variance: if the former is substantially larger, it’s evidence that group means are likely different.
 
