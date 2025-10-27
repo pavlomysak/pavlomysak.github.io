@@ -9,7 +9,6 @@
     <link rel="icon" href="{{ '/assets/favicon.png' | relative_url }}">
     <meta name="theme-color" content="#555555">
 
-    <!-- Main stylesheet -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
 
@@ -25,15 +24,21 @@
       <a href="{{ '/journals' | relative_url }}">Journal Entries</a>
     </nav>
 
-    <main class="home-intro">
-      <div class="intro-container">
-        <div class="intro-photo">
-          <img src="{{ '/assets/headshot.jpg' | relative_url }}" alt="Photo of {{ site.title }}">
+    <main class="home-page">
+      <section class="home-intro">
+        <div class="intro-container">
+          <div class="intro-photo">
+            <img src="{{ '/assets/headshot.jpg' | relative_url }}" alt="Photo of {{ site.title }}">
+          </div>
+          <div class="intro-text">
+            {{ content | split:'<!--more-->' | first }}
+          </div>
         </div>
-        <div class="intro-text">
-          {{ content }}
-        </div>
-      </div>
+      </section>
+
+      <section class="home-content">
+        {{ content | split:'<!--more-->' | last }}
+      </section>
     </main>
 
     <footer>
