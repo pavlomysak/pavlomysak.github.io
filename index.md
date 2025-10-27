@@ -6,9 +6,9 @@ title: Home
 # Pavlo Mysak
 _Data Science Student | eCommerce Analyst_
 
-I’m a data science student at **Boston University** with a background in **Business Analytics** and **Economics**.  
-Currently, I work part-time as an **eCommerce Analyst at La Tourangelle**, where I lead data science projects in pricing and forecasting.  
-My research interests include **causal inference**, **machine learning**, and **applied econometrics**.
+I’m a MS in data science student at **Boston University** with a background in **Business Analytics** and **Economics**.  
+Currently, I work as an **eCommerce Analyst at La Tourangelle**, where I lead data science projects in pricing and forecasting.  
+My interests include **machine learning**, **causal inference**, and **econometrics**.
 
 <!--more-->
 
@@ -23,11 +23,12 @@ My research interests include **causal inference**, **machine learning**, and **
 
 ## Currently Working On
 - [TRACE — A hybrid deep learning architecture for intermittent demand forecasting](https://github.com/pavlomysak/TRACE-forecasting/tree/main)
+- homework, probably
 
 ---
 
 ## Explore My Work
-See my [projects and research](/my-work) for manuscripts, experiments, and technical notes.
+See my [projects and research](/my-work) for manuscripts, experiments, and my [Journal](\journals) for technical notes and ideas.
 
 ---
 
