@@ -104,7 +104,7 @@ We know that:
 
 How can we match up these terms based on similarity? Well, let’s start with the easy one. 
 
-Epistemic uncertainty and the variance term are clearly long-lost cousins. Both are expectations of a squared deviation, and if you stare at the bias–variance expression long enough, you’ll notice $\mathbb{E}_D[(y(x;D) -\mathbb{E}_D[y(x;D)])^2]$ is literally the variance of $y(x;D)$. And what is $y(x;D)$, really, if not the expectation of “$Y$ given $X$” in disguise? (formally, an ML prediction is just our model’s estimate of $\mathbb{E}[Y|X]$)
+Epistemic uncertainty and the variance term are clearly long-lost cousins. Both are expectations of a squared deviation, and if you stare at the bias–variance expression long enough, you’ll notice $\mathbb{E}_D[(y(x;D) -\mathbb{E}_D[y(x;D)])^2]$ is literally the variance of $y(x;D)$. And what is $y(x;D)$, really, if not the expectation of “$Y$ given $X$” in disguise? (formally, an ML prediction is just our model’s estimate of $$\mathbb{E}[Y|X]$$)
 
 $$ \mathbb{E}_D[(y(x;D) - \mathbb{E}_D[y(x;D)])^2] = \text{Var}_D(\mathbb{E}[Y|X]) $$
 
