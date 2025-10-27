@@ -10,6 +10,8 @@ I’m a data science student at **Boston University** with a background in **Bus
 Currently, I work part-time as an **eCommerce Analyst at La Tourangelle**, where I lead data science projects in pricing and forecasting.  
 My research interests include **causal inference**, **machine learning**, and **applied econometrics**.
 
+<!--more-->
+
 ---
 
 ## Technical Skills
