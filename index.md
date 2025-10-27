@@ -28,7 +28,7 @@ My interests include **machine learning**, **causal inference**, and **econometr
 ---
 
 ## Explore My Work
-See my [projects and research](/my-work) for manuscripts, experiments, and my [Journal](\journals) for technical notes and ideas.
+See my [projects and research](/my-work) for manuscripts, experiments, and my [journal](\journals) for technical notes and ideas.
 
 ---
 
