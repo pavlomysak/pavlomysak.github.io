@@ -4,7 +4,7 @@ title: Home
 ---
 
 # Pavlo Mysak
-_Data Science Student | eCommerce Analyst_
+_Data Scientist_
 
 I’m a MS in data science student at **Boston University** with a background in **Business Analytics** and **Economics**.  
 Currently, I work as an **eCommerce Analyst at La Tourangelle**, where I lead data science projects in pricing and forecasting.  
@@ -17,7 +17,7 @@ My interests include **machine learning**, **causal inference**, and **econometr
 ## Technical Skills
 **Python**, **R**, **SQL**, **Tableau**
 
-[📄 View My Resume](PavloMysak_Resume_DS_0731.pdf)
+[📄 View My Resume](PavloMysak_Resume_DS_1029.pdf)
 
 ---
 
