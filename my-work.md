@@ -28,6 +28,7 @@ permalink: /my-work/
 # Projects  
 
 ## Python
+#### Python : [Bayesian Discrete Choice Model for Affordable Housing Applications (MS Consulting Project)](CHAPA_Bayesian_Model.html)
 #### Python : [TRACE | A hybrid deep learning architecture for intermittent demand forecasting](https://github.com/pavlomysak/TRACE-forecasting/tree/main)  
 #### Python : [Imbalanced Classification using Cost Sensitive Learning, Synthetic Minority Oversampling Techniques and Decision Threshold Adjustment](Imbalanced Classification Project (Machine Failures).html)
 
