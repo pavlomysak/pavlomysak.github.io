@@ -23,6 +23,7 @@ My interests include **machine learning**, **causal inference**, and **econometr
 
 ## Currently Working On
 - [TRACE — A hybrid deep learning architecture for intermittent demand forecasting](https://github.com/pavlomysak/TRACE-forecasting/tree/main)
+- [Bayesian Discrete Choice Model for Affordable Housing Applications](CHAPA_Bayesian_Model.html)
 - homework, probably
 
 ---
