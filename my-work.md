@@ -10,7 +10,7 @@ permalink: /my-work/
 
 # Manuscripts/Reports
 
-[Estimating Latent Volatility Regimes via Bayesian Markov Switching](https://github.com/pavlomysak/Bayesian-Regime-Switching/blob/main/report/BayesianRegimeSwitching.pdf) - [[notebook]](https://github.com/pavlomysak/Bayesian-Regime-Switching/blob/main/notebooks/model_dev.ipynb)  
+[Estimating Latent Volatility Regimes via Bayesian Markov Switching](BayesianRegimeSwitching.pdf) - [[notebook]](https://github.com/pavlomysak/Bayesian-Regime-Switching/blob/main/notebooks/model_dev.ipynb)  
 **Type:** Academic Research Paper  
 **Tools:** Python (PyMC, Matplotlib)  
 
