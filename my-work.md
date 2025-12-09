@@ -10,9 +10,9 @@ permalink: /my-work/
 
 # Manuscripts/Reports
 
-[Estimating Latent Volatility Regimes via Bayesian Markov Switching](https://raw.githubusercontent.com/pavlomysak/Bayesian-Regime-Switching/main/report/BayesianRegimeSwitching.pdf) - [[notebook]](https://github.com/pavlomysak/Bayesian-Regime-Switching/blob/main/notebooks/model_dev.ipynb)
-**Type:** Academic Research Paper
-**Tools:** Python (PyMC, Matplotlib)
+[Estimating Latent Volatility Regimes via Bayesian Markov Switching](https://github.com/pavlomysak/Bayesian-Regime-Switching/blob/main/report/BayesianRegimeSwitching.pdf) - [[notebook]](https://github.com/pavlomysak/Bayesian-Regime-Switching/blob/main/notebooks/model_dev.ipynb)  
+**Type:** Academic Research Paper  
+**Tools:** Python (PyMC, Matplotlib)  
 
 [Retail Price Sensitivity and Promotional Strategy: A Multi-Retailer Olive Oil Analysis](Olive Oil Consumer Price Sensitivity.pdf)  
 **Type:** Executive-Facing Analysis  
