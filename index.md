@@ -8,22 +8,22 @@ _Data Scientist_
 
 I’m a MS in data science student at **Boston University** with a background in **Business Analytics** and **Economics**.  
 Currently, I work as an **eCommerce Analyst at La Tourangelle**, where I lead data science projects in pricing and forecasting.  
-My interests include **machine learning**, **causal inference**, and **econometrics**.
+My interests include **machine learning**, **Bayesian statistics**, **causal inference**, and **econometrics**.
 
 <!--more-->
 
 ---
 
 ## Technical Skills
-**Python**, **R**, **SQL**, **Tableau**
+**Python**, **SQL**, **R**, **Tableau**
 
-[📄 View My Resume](PavloMysak_Resume_DS_1029.pdf)
+[📄 View My Resume](PavloMysak_Resume_DS_1226.pdf)
 
 ---
 
 ## Currently Working On
 - [TRACE — A hybrid deep learning architecture for intermittent demand forecasting](https://github.com/pavlomysak/TRACE-forecasting/tree/main)
-- [Bayesian Discrete Choice Model for Affordable Housing Applications](CHAPA_Bayesian_Model.html)
+- [Estimating Latent Volatility Regimes via Bayesian Markov Switching](BayesianRegimeSwitching.pdf) - [[notebook]](https://github.com/pavlomysak/Bayesian-Regime-Switching/blob/main/notebooks/model_dev.ipynb)  
 - homework, probably
 
 ---
