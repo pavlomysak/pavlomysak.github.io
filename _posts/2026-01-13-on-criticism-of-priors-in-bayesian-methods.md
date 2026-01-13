@@ -10,7 +10,7 @@ If you’ve spent any time lurking on LinkedIn, statistics forums, or the sacred
 
 Before we grab the pitchforks, let’s take a closer look. Are these criticisms genuinely damning or are they mostly a misunderstanding of what priors actually do? In the sections that follow, we’ll explore why, in practice, thoughtfully chosen priors often make your inferences better, not worse. 
 
-# 1. Let's talk bias
+## 1. Let's talk bias
 
 Most frequentist guarantees, like unbiasedness or even the central limit theorem, are asymptotic. That means they only truly kick in when your sample size goes to infinity. In practice, “infinity” is usually larger than what you actually have. More importantly, the sample size required for those guarantees depends heavily on the specifics of your data and the problem you’re solving. So even if you tell me you have an MVUE (minimum variance unbiased estimator)... do you really?
 
@@ -31,7 +31,7 @@ Furthermore, this idea of “bias for stability” isn’t unique to Bayesians. 
 
 Bayes offers an elegant counterpart. Instead of shrinking everything toward zero, you can shrink toward informed values like the prior mean or, in hierarchical models, the mean of a related group. This is the magic of partial pooling: each group borrows strength from others, balancing individual data with the larger structure.
 
-# 2. Let's talk information
+## 2. Let's talk information
 
 When it comes to priors, we not only control the location of the density, but also the *strength* of the encoded information.
 
@@ -41,7 +41,7 @@ But remember, the prior isn’t the only player. The data also has a "strength" 
 
 Yes, you can use diffuse (uninformative) priors if you truly want a “raw” posterior. But the associated cost is that uninformative priors often lead to inefficient sampling and slower convergence if you're using MCMC, especially in complex models. Even a small amount of well-encoded information can dramatically improve performance without biasing results in any practically meaningful way. 
 
-# 3. Priors Make Assumptions Explicit
+## 3. Let's talk assumptions
 
 One of the best things about Bayesian methods is that priors force you to be explicit about your assumptions. In Frequentist settings, parameters are treated as fixed, unknown constants that are often determined entirely by the likelihood and can range from $-\infty$ to $\infty$. That’s not assumption-free; it's a deliberate choice to leave plausibility unmodeled. 
 
