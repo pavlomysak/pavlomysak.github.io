@@ -6,7 +6,7 @@ author: Pavlo Mysak
 tags: [journal]
 ---
 
-If you’ve spent any time lurking on LinkedIn, statistics forums, or the sacred r/datascience subreddit, you’ve probably heard something like: “The validity of Bayesian methods hinge entirely on priors.” Well, priors *do* bias your estimates, right? So how can we trust the results?
+If you’ve spent any time lurking on LinkedIn, statistics forums, or the sacred r/datascience subreddit, you’ve probably heard something like: “The validity of Bayesian methods hinges entirely on priors.” Well, priors *do* bias your estimates, right? So how can we trust the results?
 
 Before we grab the pitchforks, let’s take a closer look. Are these criticisms genuinely damning or are they mostly a misunderstanding of what priors actually do? In the sections that follow, we’ll explore why, in practice, thoughtfully chosen priors often make your inferences better, not worse. 
 
