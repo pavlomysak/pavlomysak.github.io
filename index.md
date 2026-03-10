@@ -6,8 +6,10 @@ title: Home
 # Pavlo Mysak
 _Data Scientist_
 
-I’m a MS in data science student at **Boston University** with a background in **Business Analytics** and **Economics**.  
-Currently, I work as an **eCommerce Analyst at La Tourangelle**, where I lead data science projects in pricing and forecasting.  
+I’m an MS in data science student at **Boston University** with a background in **Business Analytics** and **Economics**.  
+
+Currently, I work as a **Data Scientist @ [Bera.ai](https://bera.ai)**. Previously, I led data science projects in **pricing and forecasting @ [La Tourangelle](https://latourangelle.com)**.  
+
 My interests include **machine learning**, **Bayesian statistics**, **causal inference**, and **econometrics**.
 
 <!--more-->
