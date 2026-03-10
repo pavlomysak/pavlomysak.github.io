@@ -4,6 +4,7 @@ title: Home
 ---
 
 # Pavlo Mysak
+📍 Boston, MA  
 _Data Scientist_
 
 I’m an MS in data science student at **Boston University** with a background in **Business Analytics** and **Economics**.  
