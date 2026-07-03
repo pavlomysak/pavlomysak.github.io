@@ -6,9 +6,9 @@ title: Home
 # Pavlo Mysak
 _Data Scientist_
 
-I’m an MS in data science student at **Boston University** with a background in **Business Analytics** and **Economics**.  
+I’m a **Data Scientist @ [BERA.ai](https://bera.ai),** where I design and estimate Bayesian hierarchical models to measure all things brand equity for Fortune 500 clients. Recent work has combined instrumental-variable identification (inspired by two-stage least squares), Bayesian variable selection grounded in exclusion-restriction logic, and latent variable structures for hard-to-observe channels. I hold an M.S. in Data Science from Boston University and a B.S. in Business Analytics and Economics from SUNY New Paltz.   
 
-Currently, I work as a **Data Scientist @ [BERA.ai](https://bera.ai)**. Previously, I led data science projects in **pricing and forecasting @ [La Tourangelle](https://latourangelle.com)**.  
+Previously, I worked on **pricing and forecasting @ [La Tourangelle](https://latourangelle.com),** building demand forecasting and price elasticity models.    
 
 My interests include **machine learning**, **Bayesian statistics**, **causal inference**, and **econometrics**.
 
